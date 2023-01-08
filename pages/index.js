@@ -132,20 +132,22 @@ export default function Home() {
           <div>
             <h3 className='text-3xl py-2  dark:text-white'> Portfolio</h3>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
-              Since the beginning of my journey as a freelance designer and
-              developer, I have done remote work for
-              <span className="text-teal-500"> agencies </span>
-              consulted for <span className="text-teal-500">startups </span>
-              and collaborated with talanted people to create digital products
+              Since the beginning of my journey as a full-stack developer I have realized
+              projects and collaborated with talanted people to create digital products
               for both business and consumer use.
             </p>
+            <h4 className="pt-2 text-2xl text-teal-600">Space jump</h4>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
-              I offer from a wide range of services, including brand design,
-              programming and teaching.
+              Is a project I realized with the collaboration of Alexander, Joel and Daniel during the 
+              bootcamp in FactoryF5 and is a market place web page that iculdes four sections
+              whom are home page , all-product page, chart page and contact page.
             </p>
+            <a className="pt-2 text-xl text-teal-600" href='https://github.com/spacejam-marketplace/space-jump' target="blank"> Linkedin rep: https://github.com/spacejam-marketplace/space-jump</a>
+
           </div>
           <div className='flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap'>
-            <div className='basis-1/3 flex-1'>
+            <div className='basis-1/3 flex-1 text-center'>
+              <h4 className=' py-2  dark:text-white'>Desktop version </h4>
               <Image
                 alt="web1"
                 src={web1}
@@ -153,7 +155,8 @@ export default function Home() {
                 width={'100%'}
                 height={'100%'}
                 layout='responsive' /></div>
-            <div className='basis-1/3 flex-1'>
+            <div className='basis-1/3 flex-1 text-center'>
+            <h4 className=' py-2  dark:text-white' >Mobile version </h4>
               <Image
                 alt="web2"
                 src={web2}
