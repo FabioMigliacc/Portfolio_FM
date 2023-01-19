@@ -201,10 +201,10 @@ export default function Home() {
         <section>
           <h3 className='text-3xl py-2  dark:text-white'> Contact me: </h3>
           <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
-            E-mail: febbio9@gmail.com
+            
           </p>
           <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
-            Mobile phone : +34 634203739
+            
           </p>
         </section>
         <footer className='text-center mx-auto bg-gradient-to-b from-teal-500 '>
